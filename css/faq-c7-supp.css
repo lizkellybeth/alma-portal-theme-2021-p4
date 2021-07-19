@@ -1,0 +1,44 @@
+#faq-c7-supp table, th, td {
+    border: 0px solid black;
+}
+#faq-c7-supp table {
+	width: 90%;
+}
+#faq-c7-supp tr.odd { background:#fff;}
+#faq-c7-supp tr.odd:first-child {
+	width: 90%;	
+}
+#faq-c7-supp tr {
+	backgroundx:#eee;
+}
+#faq-c7-supp td {	
+	vertical-align:top; 
+}
+
+
+#faq-c7-supp img { float:right;}
+#faq-c7-supp div.arrow { 
+    background: url("../images/faq-arrow-alma.png") no-repeat scroll 0 -16px rgba(0, 0, 0, 0);
+    display: block;
+    height: 16px;
+    width: 22px;
+}
+#faq-c7-supp div.up { background-position:0px 0px;}
+
+
+#faq-c7-supp p {
+	margin-top: .5em;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+#faq-c7-supp p.question {
+	margin-bottom:	.5em;
+	font-size: 1.1em; 
+}
+#faq-c7-supp p.answer {
+	margin-top:	0em;
+	margin-bottom:	1.2em;
+	font-size: 1.0em; 
+	margin-left:	1.0em;
+	font-weight: bold;
+}

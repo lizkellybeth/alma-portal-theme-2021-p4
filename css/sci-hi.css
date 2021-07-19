@@ -1,0 +1,39 @@
+#alma-highlights {
+  display: inline-block;
+  width: 85%;
+  min-height: 800px;
+  background-color:  #00437c;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+#sci-hi-img {
+    width: 100%;
+}
+
+#alma-highlightsxxx h3 {
+    margin-top: 0px;
+    width: 100%;
+}
+
+#sci-hi-figure{
+    float: right;
+    margin: 0 0 6px 6px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    overflow: hidden;
+}
+
+#sci-hi-desc {
+    color: white;
+}
+
+#sci-hi-header {
+    color: white;
+}
+
+#sci-hi-caption {
+     color: white;
+}

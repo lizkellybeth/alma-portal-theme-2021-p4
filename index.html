@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme template</title>
+    <link rel="shortcut icon" href="images/logo-jao.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/personaltools.js"/>  
+    <script type="text/javascript" src="js/arc-localization.js"/>   
+    <script type="text/javascript" src="js/resize-portlets.js"/>   
+    <script type="text/javascript" src="js/alma-dropdown.js"/>   
+    <script type="text/javascript" src="js/alma-status-page.js"/>   
+    <script type="text/javascript" src="js/alma-status-portlet.js"/>   
+    <script type="text/javascript" src="js/alma-hpp.js"/>   
+    <script type="text/javascript" src="js/largePrograms.js"/>   
+    <script type="text/javascript" src="js/moment.js"/>  
+    <script type="text/javascript" src="js/moment-timezone-with-data-2012-2022.js"/>  
+    <script type="text/javascript" src="js/countdown.js"/>  
+    <script type="text/javascript" src="js/atmos-model.js"/>  
+    <script type="text/javascript" src="js/faq-c7-supp.js"/>  
+    <script type="text/javascript" src="js/popup.js"/>  
+    <script type="text/javascript" src="js/sci-hi.js"/>  
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sci-hi.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/alma.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/drop_down.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/personaltools.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/alma-searchbox.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/alma-hpp.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/alma-status-page.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gruppo" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/countdown.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/faq-c7-supp.css" />
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            console.log( "ALMA JQ ready!" );
+            doLocalization()
+            resizeAlmaPortlets();
+            $(window).resize(resizeAlmaPortlets);
+            initPersonalTools();
+            disableTopLevelMenuItems();
+        });    
+    </script>
+</head>
+<body id="alma-body">
+        <div id="alma-banner">
+        <!--
+            <span id='alma-title'>Atacama Large Millimeter/submillimeter Array</span>
+            <span id='alma-motto'>In Search of our Cosmic Origins</span>
+            -->
+            <div id="alma-square"/>
+            <div id="almalogo-div">
+                <a id="almalogo-anchor" href="/newtheme" >
+                   <!-- <img id="almalogo-img" src="images/alma-logo-text.png"/>  -->
+                    <img id="almalogo-img" src="images/alma-logo-text-zealous-crop.png"/>
+                </a>
+            </div>
+            <div id="arclogo-div">
+                <img id="arclogo-img" />
+            </div>
+        </div>
+        <div id="alma-page-margins">    
+            <div id="alma-top-div">
+                
+                <div id='almaEmergencyMessage'/>
+                   
+                <div id="alma-toolbar">
+                    <div id="alma-breadcrumbs"/>
+                    <div id="alma-portal-searchbox"/>
+                    <div id="portal-personaltools-div">
+                        <ul id="portal-personaltools" class="actionMenu deactivated"/>
+                    </div>
+                </div>
+                
+                <div id="alma-globalnav">
+                    <div id="alma-home-div"><a id="alma-home-link" href="/" title="Home"><image id="antenna_icon" src="images/antenna_icon.png"/></a></div>
+                    <div id="alma-globalnav-center">
+                      alma-globalnav-center
+                    </div>
+                    <!--<div id="alma-portal-searchbox"/>-->
+                </div>
+            </div>
+            
+            <div id="new-alma-outer">
+            
+                <div id="new-alma-left">
+                    <div id="alma-highlights"> 
+                        <h3 id="sci-hi-header">Science Highlight</h3>
+                        <div>
+                        <!--    <h2 id="sci-hi-name">sci-hi-name</h2> -->
+                            <h4 id="sci-hi-desc">sci-hi-desc</h4>
+                           <!-- <img id="sci-hi-img">image</img> -->
+                            <figure id="sci-hi-figure">
+                                <a class="pat-plone-modal" data-pat-plone-modal="image: true" id="sci-hi-anchor">
+                                    <img  id="sci-hi-img"></img>
+                                    <figcaption id="sci-hi-caption">sci-hi-caption</figcaption>
+                                </a>
+                            </figure>                
+                            <p id="sci-hi-contents">sci-hi-contents</p>
+                            <p id="sci-hi-date">sci-hi-date</p>
+                            <a id="sci-hi-link">More...</a>
+            
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="new-alma-right">
+            
+                    <div id="alma-news">
+                        <table id="alma-news-table">
+                            <tr id="alma-news-tr"/>
+                        </table>
+                    </div>        
+                
+                    <div id="alma-portal-wrapper">
+                        wrapper
+                    </div>
+            
+                </div> <!-- end new-alma-right -->
+            
+            </div> <!-- end new-alma-outer -->
+            
+            <div id="alma-footer">    
+                <ul id="alma-siteactions">
+                    <li id="siteaction-privacy_statement"><a href="http://almascience.org/alma-science-portal-privacy-statement" accesskey="" title="Privacy Statement">Privacy Statement</a></li>
+                </ul>
+        
+                <ul id="alma-arcs">
+                    <li id="alma-region">Region:</li>
+                    <li title="East Asia"><a href="https://almascience.nao.ac.jp/">EA</a></li>
+                    <li title="Europe"><a href="https://almascience.eso.org">EU</a></li>
+                    <li title="North America"><a href="https://almascience.nrao.edu">NA</a></li>
+                </ul>    
+            </div>    
+        </div>
+
+</body>
+</html>

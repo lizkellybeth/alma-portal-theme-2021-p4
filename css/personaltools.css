@@ -1,0 +1,53 @@
+#alma-toolbar #portal-personaltools {
+    display: inline;
+    float: right;
+    background-color: #99BBDD;
+    padding: 0em 3em 0em 1em;
+    margin-top: -20px;
+}
+
+#alma-toolbar #portal-personaltools li{
+    display: block;
+    margin-left: 0;
+    border-radius: 20px;
+    height: 18px;
+}
+
+#alma-toolbar #portal-personaltools #user-name{
+    display: block;
+    color: #EEE;
+}
+
+#alma-toolbar #personaltools-login a {
+    color: #EEE;
+}
+
+#portal-personaltools-div  {
+    position: absolute;
+    right: 2px;
+    display: inline-block;
+    padding: 5px;
+}
+
+#portal-personaltools-div  {
+    z-index: +10;
+}
+
+#portal-personaltools  {
+    z-index: +10;
+    border-radius: 20px;
+}
+
+#alma-news {
+    position: relative;
+    /*top: 1em;*/
+}
+
+#alma-portal-wrapper {
+    position: relative;
+    top: 1em;
+}
+
+#alma-news .managePortletsLink {
+    display: inline-block;
+}

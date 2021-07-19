@@ -1,0 +1,474 @@
+#alma-body {
+    font-family: Avenir, Helvetica, Verdana, Lucida, Arial, sans-serif;
+    font-size: 78%;
+}
+
+#alma-globalnav, #portal-globalnav {
+    padding: 0em;
+    position: relative;
+    top: 10px;
+    min-height: 40px;
+    padding-bottom: -5px;
+    padding-top: 6px;
+    margin-left:20px;
+}
+
+#portal-globalnav {
+    left: 20px;
+}
+
+#alma-portal-wrapper h1, #alma-portal-wrapper h2, #alma-portal-wrapper h3, #alma-portal-wrapper h4, #alma-portal-wrapper h5, #alma-portal-wrapper h6 {
+    font-family: Avenir, Helvetica, Verdana, Lucida, Arial, sans-serif;
+    border-bottom: 0px;
+}
+
+#alma-portal-wrapper h1, #alma-portal-wrapper h2 {
+    font-weight: bold;
+}
+
+#alma-portal-wrapper #content {
+    /**border-top: 2px solid #8cacbb;   **/
+    border-bottom: 0px solid #8cacbb;  
+    
+}
+
+#alma-portal-wrapper #portal-column-content {
+    /*width: 74%;*/
+}
+
+#alma-portal-wrapper .documentActions {
+    border-top: 0px;
+}
+
+#alma-banner {
+    height: 132px;
+    /**background-image: url("++theme++alma-prototype-theme/images/banner-wrap-l.jpg");**/
+    background-image: url("++theme++alma-prototype-theme/images/alma-silhouette.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 147px;
+    background-color: #13346E;
+    background-position: center;
+}
+
+#alma-bannerx {
+    height: 147px;
+    background-image: url("++theme++alma-prototype-theme/images/alma-banner-lt.jpgg");
+    background-repeat: no-repeat;
+    background-size: 1600px 147px;
+    background-color: #24538a;
+    background-position: center;
+}
+
+#alma-bannerxxx {
+    /*height: 110px;*/
+    width: 1600px;
+    /*height: 12em;*/
+    height: 147px;
+    background-image: url("++theme++alma-prototype-theme/images/SciencePageHeader02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-color: #24538a;
+}
+
+#alma-banner a {
+    height: 110px;
+    width: 100%;
+    text-decoration: none;
+}
+
+#arclogo-div {
+    top: -8em;
+    height: 57px;
+}
+
+#almalogo-div {
+    position: relative;
+    top: 1em;
+}
+
+#arclogo-img {
+    float:right;
+    margin-right: 7px;
+    z-index: +1000;
+    margin-top: .5em;
+}
+
+#almalogo-img {
+    float:left;
+    margin-left: 1em;
+}
+
+#alma-portal-searchbox {
+    display: inline-block;   
+    float: right;
+    /*margin-top: -4.2em;*/
+    margin-top: -30px;
+    right: 1px;
+}
+
+#alma-portal-searchbox .searchSection {
+    /*color: #DDD;*/
+    /*display: inline;*/
+}
+
+#alma-portal-searchbox #searchGadget {
+    vertical-align: top;
+    border: none;
+}
+
+#alma-portal-searchbox .searchSection label:hover,  
+#alma-portal-searchbox .searchSection {
+     color: #DDD; 
+}
+
+#alma-page-margins {
+    padding: 0;
+	margin: 0;
+	min-width: 950px;
+/*	max-width: 114em;*/
+	margin: auto;
+}
+
+#alma-toolbar {
+    width: 100%;
+    background-color: #24538A;
+    line-height: 1.6em;
+    /*margin-bottom: .8em;*/
+    margin-top: -1.6em;
+}
+
+#alma-breadcrumbs {
+    border-bottom-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-transform: none;
+    /*display: inline-block;*/
+    display: none;
+    color: #DDD;
+}
+
+#alma-breadcrumbs .breadcrumbSeparator {
+    padding: 0em;
+    color: #DDD;    
+}
+
+#alma-breadcrumbs a {
+    text-decoration: none;
+	color: #EEE;
+}
+
+#alma-footer {
+    background-color: transparent;
+	bottom: 0px;
+	position: fixed;
+    /*max-width: 114em;*/
+	width: 100%;
+    font-size: 120%;
+}
+
+#alma-siteactions, #alma-arcs {
+    display: inline;
+	white-space: nowrap;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 1px 0 0 0;
+	height: auto;
+	line-height: 1.5em;
+	/*padding: 3px 2em 3px 0;*/
+}
+
+#alma-siteactions {
+    background-color: #24538A;
+    width: 74%;
+    float: left;   
+    text-align: center;
+    margin-left: 0%;
+}
+
+#alma-arcs  {
+    /*background-color: #9BD;*/
+    background-color: #24538A;
+    width: 26%;
+    float: right;   
+    text-align: center;
+    margin-right: 0%;
+}
+
+#alma-arcs li {
+    margin:  .5em;  
+}
+
+#alma-siteactions li a, #alma-arcs li a {
+    background-color: transparent;
+	border: none;
+	color: #EEE;
+	height: auto;
+	padding: 0.5em;
+	margin-right: 0.2em;
+	text-decoration: none;
+	text-transform: none;
+}
+
+#alma-siteactions li, #alma-arcs li {
+    display: inline;
+}
+
+#alma-news {
+    display: inline-block;   
+    width: 100%;
+    /*margin-top: -0.4em;*/
+    margin-top: 20px;
+    margin-bottom: -1.3em;
+    border-top-style: solid;
+    /*border-color: #99BBDD;*/
+    border-color: #436976;
+    border-top-width: 2px;
+}
+
+#alma-news dt.portletHeader {
+    background-color: transparent;
+    border: transparent;
+	padding: 0em 0em;
+	text-transform: none;
+	font-weight: normal;
+	line-height: 1.5em;
+    font-size: 1.2em;
+    font-family: Avenir, Helvetica, Verdana, Lucida, Arial, sans-serif;
+}
+
+#alma-news .portletFooter {
+    background-color: #eef3f5;
+	margin: 0;
+	/*padding: 0.25em 1em;*/
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: 0em;
+    padding-right: 1em;    
+	border: 1px solid #8cacbb;
+	border-style: none;
+	text-align: right;
+}
+
+#alma-news .portletItemDetails {
+    text-align: left;
+	display: block;
+	color: Black;
+    font-size: 70%;
+}
+
+#alma-news .portlet {
+    margin: 1em;
+	border-bottom: 0px solid #8cacbb;
+    /*border-top: 3px solid #8cacbb;*/
+	background-color: white;
+	display: inline-block;
+	float: left;   
+    /* width: 30%; */
+    /*height: 19em;*/
+    overflow: auto;
+}
+
+#alma-portal-wrapper .portlet {
+    float: right;
+}
+
+#alma-news dd {
+    overflow: hidden;
+    padding: 0 4px 0 9px
+}
+#alma-news dd input {
+    width: 100%
+}
+
+#alma-portal-wrapper .portletHeader, #alma-portal-wrapper .managedPortlet .portletHeader {
+    background-color: #99BBDD;
+    color: white;
+}
+
+#alma-portal-wrapper .portletHeader a, #alma-portal-wrapper .managedPortlet .portletHeader a {
+    color: white;
+}
+
+.portletFooter {
+    position: absolute;
+    bottom: 12px;
+}
+
+#alma-news .portletItem .alma-status-portlet-section {
+    margin-top: 0;   
+    margin-bottom: .5em;
+    /**min-height: 2em;**/
+    /**font-size: .95em;**/
+}
+
+
+#portaltab-proposing-level1xxx {
+    pointer-events: none;
+}    
+    
+#alma-title {
+    position: absolute;
+    top:  2em;
+    left: 5.5em;
+    font-size: 1.5em;
+    color: #333333;
+    font-weight: bold;
+}
+
+#alma-motto {
+    position: absolute;
+    top:  5em;
+    left: 8.6em;
+    font-size: 1em;
+    color: #333333;
+    font-weight: bold;
+}
+    
+    
+#searchGadget {
+    font-size: 1.2em;
+}
+
+#alma-body .searchButton {
+    font-size: 1.2em;
+}
+
+#alma-body .plain {
+    font-size: 15px;
+}
+
+#alma-body .selected {
+    font-size: 15px;
+}
+
+#alma-body dd {
+    line-height: 1.1em;
+    border-top: 1px solid #bbb;
+}
+
+#alma-body dd a {
+    line-height: 1.2em;
+}
+
+#alma-body #alma-news .even {
+  background-color: transparent;
+}
+
+#alma-news .portletItem {
+    margin: 0em;
+    padding: .5em;
+    margin-left: 0px;
+    padding-left: 0;
+    border-left: 0px solid #8cacbb;
+    border-right: 0px solid #8cacbb;
+    font-size: 1.1em;
+    /**min-height: 3.25em; **/
+}
+
+#alma-news .portlet .portletStaticText {
+    font-size: 1.1em;
+}
+
+#alma-portal-wrapper h1, #alma-portal-wrapper h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#portlet-collection-eu-arc-news {
+   font-size: 30px;   
+}
+
+#alma-square {
+    width: 355px;
+    height: 45px;
+    background: #24538A;
+    position: absolute;
+    margin-left: 10em;
+    margin-top: 3.8em;
+    border-radius: 3px;
+    border: 1px solid #99BBDD;
+    background: linear-gradient(to left, #99BBDD, #24538A);
+    display: none;
+}
+
+#searchGadget {
+    background: url("++theme++alma-prototype-theme/images/search_oval.png");
+    border: 0px;
+    border-color: #000000;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    width: 209px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+input.searchButton {
+    display: none;   
+}
+
+#searchbox_currentfolder_only{
+  display: none;  
+} 
+
+#alma-portal-searchbox .searchSection {
+    color: #DDD;
+    display: none;
+}
+
+.portletNews > dt:nth-child(1) > a:nth-child(2){
+    border: 0px;
+    border-style: solid;
+}
+
+#alma-iframe {
+    height: 800px;
+    width: 100%;
+    border-style: none;
+}
+
+#ot_player2 {
+    width: 720px;
+}
+
+#content {
+    padding-left: 0em;   
+}
+
+#alma-region {
+    color: white;   
+}
+
+
+#parent-fieldname-text-6c844acde9f344f18cb03ef3ae9f5b41 > p:nth-child(1) {
+    display: none;    
+}
+
+table.listing.alma-toc {
+  margin-top: -40px;   
+}
+
+#new-alma-outer {
+    border-style: dotted;
+    border-width: 0px;
+}
+
+#new-alma-left {
+    display: inline-block;
+    width: 400px;
+    border-style: solid;
+    border-width: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
+}
+
+#new-alma-right {
+    display: table-cell;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+
